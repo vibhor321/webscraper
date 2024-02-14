@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+*.env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Project-specific files
+db.sqlite3
+*.log
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Ignore the local configuration file for manage.py since it's different on each machine
+manage.py.local
+
+# Ignore any local .env files
+*.env
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system and hidden files
+.DS_Store
+Thumbs.db
+
+# Ignore egg-info directory
+*.egg-info/
+
+# Ignore dist directory
+dist/
+
+# Ignore build directory
+build/
+
+# Ignore __pycache__ directory
+__pycache__/
+
+#Ignore credentials
+credentials.json
+
+#Ignore test files for testing and logging
+test.py
+scrapper.py
+
+#exclude sample.env
+!sample.env
